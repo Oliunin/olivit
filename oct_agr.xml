@@ -1,0 +1,167 @@
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<q1:GetManagementDocumentsResponse xmlns:q1="http://sync.gkh.octonica.ru/main-sync">
+	<q1:Document xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="q1:Charter">
+		<q1:DocumentType>Charter</q1:DocumentType>
+		<q1:Attachments>
+			<q1:Attachment UseExisting="false">
+				<q1:Name>Устав.pdf</q1:Name>
+				<q1:Description>Устав.pdf</q1:Description>
+				<q1:ContentType>Pdf</q1:ContentType>
+				<q1:IsMain>false</q1:IsMain>
+			</q1:Attachment>
+		</q1:Attachments>
+		<q1:Date>2008-11-18</q1:Date>
+		<q1:Status>Approved</q1:Status>
+		<q1:ManagedObjects>
+			<q1:ManagedObject>
+				<q1:FIASHouseGuid>38a14f8a-db06-468a-afb2-9b0c279fa0b8</q1:FIASHouseGuid>
+				<q1:StartDate>2008-11-18</q1:StartDate>
+				<q1:Status>Approved</q1:Status>
+				<q1:IsManagedByContract>false</q1:IsManagedByContract>
+				<q1:ServiceTypes>
+					<q1:ServiceType>
+						<q1:ID>409efdc1-2ec1-4339-8e25-8e4667303c4c</q1:ID>
+						<q1:GisGUID>409efdc1-2ec1-4339-8e25-8e4667303c4c</q1:GisGUID>
+						<q1:GisUniqueNumber>1</q1:GisUniqueNumber>
+						<q1:Kind>ColdWater</q1:Kind>
+						<q1:IsActual>true</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2019-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>de5173df-a4ca-4993-b689-f95af68ecb85</q1:ID>
+						<q1:GisGUID>de5173df-a4ca-4993-b689-f95af68ecb85</q1:GisGUID>
+						<q1:GisUniqueNumber>19</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Уборка придомовой территории</q1:Name>
+						<q1:MeasureOKEICode>081</q1:MeasureOKEICode>
+						<q1:IsActual>false</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2019-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>29c5aa50-147a-4ead-b9bb-6643b8257af6</q1:ID>
+						<q1:GisGUID>29c5aa50-147a-4ead-b9bb-6643b8257af6</q1:GisGUID>
+						<q1:GisUniqueNumber>17</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Уборка мест общего пользования</q1:Name>
+						<q1:MeasureOKEICode>081</q1:MeasureOKEICode>
+						<q1:IsActual>true</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2019-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>638af081-2881-4b3b-bbf8-c9d4f846804c</q1:ID>
+						<q1:GisGUID>638af081-2881-4b3b-bbf8-c9d4f846804c</q1:GisGUID>
+						<q1:GisUniqueNumber>30</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Холодная вода по счетчику</q1:Name>
+						<q1:MeasureOKEICode>113</q1:MeasureOKEICode>
+						<q1:IsActual>true</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2020-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>5a6b9df7-8f0b-4885-a8e6-e10af4b57cce</q1:ID>
+						<q1:GisGUID>5a6b9df7-8f0b-4885-a8e6-e10af4b57cce</q1:GisGUID>
+						<q1:GisUniqueNumber>14</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Вывоз мусора</q1:Name>
+						<q1:MeasureOKEICode>081</q1:MeasureOKEICode>
+						<q1:IsActual>true</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2019-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>39b2f6c1-359f-4abd-8b80-b2f2170c40b9</q1:ID>
+						<q1:GisGUID>39b2f6c1-359f-4abd-8b80-b2f2170c40b9</q1:GisGUID>
+						<q1:GisUniqueNumber>29</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Водоснабжение ОДН</q1:Name>
+						<q1:MeasureOKEICode>081</q1:MeasureOKEICode>
+						<q1:IsActual>true</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2019-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>3b6dcb88-b7d0-4f0d-bad2-075e83ea9e3d</q1:ID>
+						<q1:GisGUID>3b6dcb88-b7d0-4f0d-bad2-075e83ea9e3d</q1:GisGUID>
+						<q1:GisUniqueNumber>21</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Электроэнергия ОДН</q1:Name>
+						<q1:MeasureOKEICode>081</q1:MeasureOKEICode>
+						<q1:IsActual>true</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2020-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>4fc1a1de-33f3-4b92-8cf5-36e78c70cd92</q1:ID>
+						<q1:GisGUID>4fc1a1de-33f3-4b92-8cf5-36e78c70cd92</q1:GisGUID>
+						<q1:GisUniqueNumber>23</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Содержание и ремонт жилья</q1:Name>
+						<q1:MeasureOKEICode>081</q1:MeasureOKEICode>
+						<q1:IsActual>true</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2019-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>4b21aeac-3bc9-4707-a4e7-c41efea1b27d</q1:ID>
+						<q1:GisGUID>4b21aeac-3bc9-4707-a4e7-c41efea1b27d</q1:GisGUID>
+						<q1:GisUniqueNumber>28</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Содержание придомовой территории</q1:Name>
+						<q1:MeasureOKEICode>081</q1:MeasureOKEICode>
+						<q1:IsActual>false</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2020-12-31</q1:EndDate>
+					</q1:ServiceType>
+					<q1:ServiceType>
+						<q1:ID>cb9f33f1-b532-4c33-bb18-57d4b243f7de</q1:ID>
+						<q1:GisGUID>cb9f33f1-b532-4c33-bb18-57d4b243f7de</q1:GisGUID>
+						<q1:GisUniqueNumber>13</q1:GisUniqueNumber>
+						<q1:Kind>AdditionalService</q1:Kind>
+						<q1:Name>Холодная вода и канализация</q1:Name>
+						<q1:MeasureOKEICode>792</q1:MeasureOKEICode>
+						<q1:IsActual>true</q1:IsActual>
+						<q1:StartDate>2008-11-18</q1:StartDate>
+						<q1:EndDate>2020-12-31</q1:EndDate>
+					</q1:ServiceType>
+				</q1:ServiceTypes>
+			</q1:ManagedObject>
+		</q1:ManagedObjects>
+		<q1:PeriodMetering>
+			<q1:StartPoint>
+				<q1:Day>1</q1:Day>
+				<q1:NextMonth>false</q1:NextMonth>
+			</q1:StartPoint>
+			<q1:EndPoint>
+				<q1:LastDay>true</q1:LastDay>
+				<q1:NextMonth>false</q1:NextMonth>
+			</q1:EndPoint>
+		</q1:PeriodMetering>
+		<q1:PaymentDocumentTime>
+			<q1:Day>1</q1:Day>
+			<q1:NextMonth>true</q1:NextMonth>
+		</q1:PaymentDocumentTime>
+		<q1:PaymentTime>
+			<q1:Day>10</q1:Day>
+			<q1:NextMonth>true</q1:NextMonth>
+		</q1:PaymentTime>
+		<q1:AssociatedDocuments>
+			<q1:Document>
+				<q1:ID>8ab37653-acab-4411-aec1-8d999257e22b</q1:ID>
+				<q1:DocumentType>OwnersMeetingProtocol</q1:DocumentType>
+				<q1:Attachments>
+					<q1:Attachment UseExisting="false">
+						<q1:Name>Протокол собрания № 1 за 2016г..pdf</q1:Name>
+						<q1:Description>Протокол собрания № 1 за 2016г..pdf</q1:Description>
+						<q1:ContentType>Pdf</q1:ContentType>
+						<q1:IsMain>false</q1:IsMain>
+					</q1:Attachment>
+				</q1:Attachments>
+			</q1:Document>
+		</q1:AssociatedDocuments>
+		<q1:MeetingOwnersProtocolID>8ab37653-acab-4411-aec1-8d999257e22b</q1:MeetingOwnersProtocolID>
+	</q1:Document>
+</q1:GetManagementDocumentsResponse>
