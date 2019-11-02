@@ -26,7 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-WB04HF123
+data/WB04HF123
 
 
 # PyInstaller
