@@ -20,5 +20,5 @@ from map import urls, views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('map.urls')),
+    path(r'',include('map.urls')),
 ]
