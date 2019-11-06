@@ -26,8 +26,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-*WB04HF123/
-
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -86,6 +84,7 @@ ipython_config.py
 # pyenv
 .python-version
 
+
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
@@ -105,9 +104,9 @@ celerybeat-schedule
 env/
 venv/
 ENV/
-VENV/
 env.bak/
 venv.bak/
+olvev/
 
 # Spyder project settings
 .spyderproject
@@ -126,6 +125,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-#data
-/data
