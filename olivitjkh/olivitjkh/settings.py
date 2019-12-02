@@ -28,7 +28,7 @@ SECRET_KEY = '0_#9439rmsy3seu^63&gnfk=sgwv1qv2l(zgboz)0i#%_!$cuz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['olivit.pythonanywhere.com']
 
 
 # Application definition
@@ -210,6 +210,7 @@ ADMINS = (
 
 # from .settings_emails import *
 
+<<<<<<< Updated upstream
 # SOCIAL AUTH AUTH0 BACKEND CONFIG
 SOCIAL_AUTH_TRAILING_SLASH = False
 SOCIAL_AUTH_AUTH0_KEY = os.environ.get('AUTH0_CLIENT_ID')
@@ -236,3 +237,8 @@ AUTHENTICATION_BACKENDS = {
 
 LOGIN_URL = '/login/auth0'
 LOGIN_REDIRECT_URL = '/map'
+=======
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+>>>>>>> Stashed changes
