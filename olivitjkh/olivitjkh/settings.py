@@ -30,7 +30,7 @@ SECRET_KEY = '0_#9439rmsy3seu^63&gnfk=sgwv1qv2l(zgboz)0i#%_!$cuz'
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = ['olivit.pythonanywhere.com']
-
+#ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -214,8 +214,10 @@ ADMINS = (
 
 # SOCIAL AUTH AUTH0 BACKEND CONFIG
 SOCIAL_AUTH_TRAILING_SLASH = False
-SOCIAL_AUTH_AUTH0_KEY = os.environ.get('AUTH0_CLIENT_ID')
-SOCIAL_AUTH_AUTH0_SECRET = os.environ.get('AUTH0_CLIENT_SECRET')
+#SOCIAL_AUTH_AUTH0_KEY = os.environ.get('AUTH0_CLIENT_ID')
+SOCIAL_AUTH_AUTH0_KEY = 'rzVvacFGvSclCPW8RIrflzn80VTyeV8H'
+#SOCIAL_AUTH_AUTH0_SECRET = os.environ.get('AUTH0_CLIENT_SECRET')
+SOCIAL_AUTH_AUTH0_SECRET = '1AmyscnjIOWrsHHvN0XRbplIsD7tzMWkYtU5_iBPSz1SmuxxiPMN80OxxzxVoHC2'
 SOCIAL_AUTH_AUTH0_SCOPE = [
     'openid',
     'profile',
@@ -237,7 +239,7 @@ AUTHENTICATION_BACKENDS = {
 
 
 LOGIN_URL = '/login/auth0'
-LOGIN_REDIRECT_URL = '/map'
+LOGIN_REDIRECT_URL = '/'
 
 MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
